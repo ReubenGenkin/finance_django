@@ -1,3 +1,4 @@
 from django.contrib import admin
+from core.models.firm_model import Firm
 
-# Register your models here.
+admin.site.register(Firm)
